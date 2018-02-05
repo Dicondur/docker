@@ -16,7 +16,6 @@ docker container logs <Name> -f
 docker container run -d --name web -p 3000:8080 -v `pwd`/oftenUsed/CPWE:/opt/jboss/CPWE jboss/wildfly
 
 
-
-
 docker container run -d --name web -p 3000:8080 -v `pwd`/CPWE:/CPWE jboss/wildfly
+
 
